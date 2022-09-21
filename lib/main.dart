@@ -1,4 +1,4 @@
 import 'package:flutter/cupertino.dart';
-import 'src/App.dart';
+import 'src/app.dart';
 
-void main() => runApp(MyApp());
+void main() => runApp(const MyApp());
