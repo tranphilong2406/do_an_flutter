@@ -11,7 +11,7 @@ class MyStatePage extends State<MyPage> {
                 child: const Text(
                   "Click me!",
                 ),
-                color: Color.fromARGB(255, 2, 236, 212),
+                color: const Color.fromARGB(255, 2, 236, 212),
                 onPressed: () {
                   DialogNotify.showDialogCustom(
                       context, "Wellcome to the app", "Hi", "Hello");
