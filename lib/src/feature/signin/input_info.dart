@@ -1,5 +1,6 @@
 import 'dart:io';
 
+import 'package:do_an_di_dong/src/feature/signup/sign_up.dart';
 import 'package:do_an_di_dong/src/homepage/my_page.dart';
 import 'package:do_an_di_dong/src/util/dialog_notify.dart';
 import 'package:flutter/cupertino.dart';
@@ -47,6 +48,13 @@ class _InputStateInfo extends State<InputInfo> {
                     context, MaterialPageRoute(builder: (context) => MyPage()));
               }
             }),
+        Padding(padding: EdgeInsets.all(10)),
+        CupertinoButton(
+            child: Text("Don't have account? Sign up?"),
+            onPressed: () {
+              Navigator.push(
+                  context, MaterialPageRoute(builder: (context) => SignUp()));
+            })
       ],
     ));
   }
