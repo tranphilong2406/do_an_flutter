@@ -1,4 +1,4 @@
-import 'package:do_an_di_dong/src/input_info.dart';
+import 'package:do_an_di_dong/src/feature/signin/input_info.dart';
 
 import 'package:flutter/cupertino.dart';
 

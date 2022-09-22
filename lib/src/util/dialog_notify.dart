@@ -28,4 +28,25 @@ class DialogNotify {
               ],
             )));
   }
+
+  static void showDialogSuccess(
+      BuildContext context, String title, String choose1) {
+    showCupertinoDialog(
+        context: context,
+        builder: (BuildContext context) => Theme(
+            data: ThemeData.dark(),
+            child: CupertinoAlertDialog(
+              title: Text(title),
+              actions: [
+                CupertinoDialogAction(
+                  child: Text(choose1),
+                  isDestructiveAction: false,
+                  isDefaultAction: true,
+                  onPressed: () {
+                    Navigator.pop(context);
+                  },
+                ),
+              ],
+            )));
+  }
 }
