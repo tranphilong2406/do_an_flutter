@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:do_an_di_dong/src/my_page.dart';
+import 'package:do_an_di_dong/src/homepage/my_page.dart';
 import 'package:do_an_di_dong/src/util/dialog_notify.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';

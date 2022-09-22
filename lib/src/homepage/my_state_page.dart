@@ -1,6 +1,6 @@
-import 'package:do_an_di_dong/src/my_page.dart';
+import 'package:do_an_di_dong/src/homepage/my_page.dart';
 import 'package:flutter/cupertino.dart';
-import 'util/dialog_notify.dart';
+import '../util/dialog_notify.dart';
 
 class MyStatePage extends State<MyPage> {
   @override
