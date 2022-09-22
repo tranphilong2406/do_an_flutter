@@ -1,6 +1,6 @@
 // ignore: file_names
+import 'package:do_an_di_dong/src/sign_in.dart';
 import 'package:flutter/cupertino.dart';
-import 'home_page.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
     return CupertinoApp(
       debugShowCheckedModeBanner: false,
       // ignore: prefer_const_constructors
-      home: HomePage(),
+      home: SignIn(),
     );
   }
 }
